@@ -202,6 +202,43 @@ nav a:focus {
     padding: .5em;
 }
 
+.sidebar-content-wrapper {
+    background-color: #FFFFFF;
+    padding: .95em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-me-text {
+    color: #1792D2;
+    text-align: center;
+}
+
+#about-me-img {
+    width: 90%;
+}
+
+.recent-post-title {
+    color: #143774;
+}
+
+h4.recent-post-title {
+    text-align: left;
+}
+
+
+.recent-post-card {
+    margin-bottom: 1em;
+    padding-bottom: .75em;
+    border-bottom: 1px solid #717171;
+}
+
+.recent-post-card:last-child {
+    border-bottom: none;
+}
+
 @media (min-width: 375px) {
 
 }
