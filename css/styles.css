@@ -175,6 +175,12 @@ nav a:focus {
     font-weight: 700;
 }
 
+.link:hover,
+.link:focus {
+    color: #143774;
+    text-decoration: underline;
+}
+
 .main-article {
     border-bottom: 1px solid #707070;
     padding-bottom: 1em;
@@ -222,10 +228,11 @@ nav a:focus {
 
 .recent-post-title {
     color: #143774;
+    font-size: 1.4rem;
 }
 
 h4.recent-post-title {
-    text-align: left;
+    text-transform: uppercase;
 }
 
 
@@ -249,11 +256,11 @@ footer {
     background-color: #143774;
     text-align: center;
     padding:2em 0;
-    color: #F8F8F8;
-
+    color: #EBEBEB;
+    margin-top: 3em;
 }
 
 
 #copyright {
-    color: #EBEBEB;
+    color: #707070;
 }
